@@ -89,6 +89,7 @@ const GlobalStyle = createGlobalStyle`
 
       html,
       body {
+        color: ${colors.primary[500]};
         font-family: 'Inter', sans-serif;
         height: 100%;
         margin: 0;
@@ -104,6 +105,10 @@ const GlobalStyle = createGlobalStyle`
       }
 
       main {
+        background-image: url('/pattern-curve.svg');
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 70%;
         height: 100%;
       }
 
